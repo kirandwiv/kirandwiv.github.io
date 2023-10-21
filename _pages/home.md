@@ -8,4 +8,6 @@ collection: posts
 toc: true
 ---
 
-Welcome to my website! Please take everything on here very seriously. In a bid to avoid a the [Preface Paradox](https://en.wikipedia.org/wiki/Preface_paradox): any errors you might find on this website are my sister's. 
+Welcome to my website! Please take everything I've written on here very seriously.
+
+Also, in a bid to avoid the [Preface Paradox](https://en.wikipedia.org/wiki/Preface_paradox): any errors you might find on this website are my sister's doing. 
