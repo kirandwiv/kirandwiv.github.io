@@ -17,7 +17,7 @@ $$ E[\pi\|e=1] = P(S\|e=1)\pi(S) + P(F\|e=1)\pi(F) \cdot > P(S\|e=0)\pi(F)+P(F\|
 
 and the agent's utility is given by:
 
-$$ U(w,e) = E[\w] + 10*e $$
+$$ U(w,e) = E[\w] + 10\cdot e $$
 
 Finally, assume the agent has a "reservation wage" of \$10 (think of this as an outside option for the tax collector/thug, like joining the Ballet). What wage does the Principle (ruler) have to offer to induce high effort from the agent? 
 
