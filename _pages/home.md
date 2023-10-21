@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Latest Posts"
+layout: home
 excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 last_modified_at: 2023-10-21T11:59:26-04:00
 author_profile: true
@@ -9,8 +10,3 @@ toc: true
 ---
 
 I want to have my top blog post here. Maybe. If I can do that somehow. 
-
-{% for post in site.posts limit:1 %}
-{{post.title}}
-{{post.content}}
-{% endfor %}
