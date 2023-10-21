@@ -11,9 +11,9 @@ You might be wondering why on earth a ruler would choose to do this. Why not jus
 
 To understand these, it's worth taking a little detour via Contract Theory. Though Contract Theory may be second only to "tax farming" in the list of least interestingly named things on this post, it turns out it's actually pretty interesting. Consider a model in which a "Princple" (in our case the ruler) seeks to delegate a task to an "Agent" (in our case the tax collector/thug). Consider first a baseline in which the principle observes whether the "effort/honesty" put into the task by the agent is High or Low. That is, our ruler can observe exactly how honestly and efficiently his tax agents are working. Higher effort yields a higher chance of a "successful" collection of taxes but is more costly to the agent. Lower effort/honesty leads to a higher chance of a "failed" collection of taxes (perhaps the thug is bribed, or gets lost in the woods) but is cheaper for the agent to implement. More specifically the expected profit is given by:
 
-\begin{align*}
+\begin{align}
 E[\pi|e=H] = P(S|e=H)\pi(S) + P(F|e=H)\pi(F) \cdot > P(S|e=L)\pi(S)+P(F|e=L)\pi(F)= E[\pi|e=L]
-\end{align*}
+\end{align}
 
  Finally, assume the agent has a "reservation wage" of $10 (think of this as an outside option for the tax collector/thug, like joining the Ballet). What wage does the 
 
