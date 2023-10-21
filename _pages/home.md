@@ -10,4 +10,7 @@ toc: true
 
 I want to have my top blog post here. Maybe. If I can do that somehow. 
 
-{% include _posts/home.md %}
+{% for post in site.posts limit:1 %}
+{{post.title}}
+{{post.content}}
+{% endfor %}
