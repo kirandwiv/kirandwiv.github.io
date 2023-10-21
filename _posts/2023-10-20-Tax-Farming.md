@@ -10,3 +10,4 @@ Fortunately we needn't concern ourselves with this troubling thought any further
 You might be wondering why on earth a ruler would choose to do this. 
 
 <object data="/assets/pdfs/TaxFarmingEssay.pdf" width="1000" height="1000" type='application/pdf'/></object>
+
