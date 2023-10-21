@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Latest Posts"
 layout: home
 excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 last_modified_at: 2023-10-21T11:59:26-04:00
@@ -9,4 +8,4 @@ collection: posts
 toc: true
 ---
 
-I want to have my top blog post here. Maybe. If I can do that somehow. 
+Welcome to my website! Please take everything on here very seriously. In a bid to avoid a the [Preface Paradox](https://en.wikipedia.org/wiki/Preface_paradox): any errors you might find on this website are my sister's. 
