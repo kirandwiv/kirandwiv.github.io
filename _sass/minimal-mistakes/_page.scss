@@ -118,6 +118,7 @@
   
     /* paragraph indents */
     p {
+      text-align: justify;  /* added here */
       margin: 0 0 $indent-var;
   
       /* sibling indentation*/
