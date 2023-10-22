@@ -18,11 +18,19 @@ P(S|e=0)\pi(F)+P(F|e=0)\pi(F) = E[\pi|e=0] $$
 
 and the agent's utility is given by:
 
-$$ U(w,e) = E[w] + 10\cdot e $$
+$$ \bar{U}(w,e) = u(E[w]) - 10\cdot e $$
 
-Finally, assume the agent has a "reservation wage" of \$10 (think of this as an outside option for the tax collector/thug, like joining the Ballet). What wage does the Principle (ruler) have to offer to induce high effort from the agent? Well, if can observe effort he wants to pay as little as possible while getting the agent to agree to work for him:
+Finally, assume the agent has a "reservation wage" of \$10 (think of this as an outside option for the tax collector/thug, like joining the Ballet). What wage does the Principle (ruler) have to offer to induce high effort from the agent? Well, if he can observe effort he wants to pay as little as possible while getting the agent to agree to work for him and put it a high-level of effort:
 
-$$ w' = $$
+$$ u(w') - u(10) = 0\\
+\Rightarrow w' = u^{-1}u(10) = 10
+$$
+
+Now what if the Principle cannot observe effort? Well, the Principle can observe outcomes, and so might design a wage that is contingent on the outcome of the tax harvest! A "success" will be rewarded with a higher wage than a "failure". The Principal thus solves:
+
+$$ \max_{w_S, w_F} E[\pi|e=1] - (P(S|e=1)w_H + P(F|e=1)w_F)\\
+\text{s.t:} u(E[]) $$
+
 
 
 <object data="/assets/pdfs/TaxFarmingEssay.pdf" width="1000" height="1000" type='application/pdf'/></object>
