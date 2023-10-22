@@ -3,6 +3,7 @@ layout: posts
 title:  "Tax Farming: should we bring it back?"
 toc: true
 ---
+<div style="text-align: Justify">
 ### Introduction
 To the unininitiated "tax farming" might sound like an awful idea. Why grow more taxes for yourself? But ask yourself: if taxes take from the worker the hard-earned fruits of his labour, what happens when those fruit are taxes?
 
@@ -31,7 +32,7 @@ Now what if the Principle cannot observe effort? Well, the Principle can observe
 $$ \max_{w_S, w_F} E[\pi|e=1] - (P(S|e=1)w_H + P(F|e=1)w_F)\\
 \text{s.t:} u(P(S|e=1)w_H + P(F|e=1)w_F) - u(10) \geq u $$
 
-
+</div>
 
 <object data="/assets/pdfs/TaxFarmingEssay.pdf" width="1000" height="1000" type='application/pdf'/></object>
 
