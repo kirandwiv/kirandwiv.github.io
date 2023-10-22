@@ -4,6 +4,8 @@ title:  "Tax Farming: should we bring it back?"
 toc: true
 ---
 
+
+![Farmers Tilling the Tax Farm][/assets/images/tax_farm.jpg]
 ### Introduction
 To the unininitiated "tax farming" might sound like an awful idea. Why grow more taxes for yourself? But ask yourself: if taxes take from the worker the hard-earned fruits of his labour, what happens when those fruit are taxes?
 
