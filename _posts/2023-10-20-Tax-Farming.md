@@ -20,9 +20,9 @@ and the agent's utility is given by:
 
 $$ U(w,e) = E[w] + 10\cdot e $$
 
-Finally, assume the agent has a "reservation wage" of \$10 (think of this as an outside option for the tax collector/thug, like joining the Ballet). What wage does the Principle (ruler) have to offer to induce high effort from the agent? 
+Finally, assume the agent has a "reservation wage" of \$10 (think of this as an outside option for the tax collector/thug, like joining the Ballet). What wage does the Principle (ruler) have to offer to induce high effort from the agent? Well, if can observe effort he wants to pay as little as possible while getting the agent to agree to work for him:
 
-$$ \max_{w} \pi(S)P(S\|e=H) + \pi(F)P(F\|e=H) - w $$
+$$ w' = $$
 
 
 <object data="/assets/pdfs/TaxFarmingEssay.pdf" width="1000" height="1000" type='application/pdf'/></object>
