@@ -30,7 +30,7 @@ $$
 Now what if the Principle cannot observe effort? Well, the Principle can observe outcomes, and so might design a wage that is contingent on the outcome of the tax harvest! A "success" will be rewarded with a higher wage than a "failure". The Principal thus solves:
 
 $$ \max_{w_S, w_F} E[\pi|e=1] - (P(S|e=1)w_H + P(F|e=1)w_F)\\
-\text{s.t:} u(P(S|e=1)w_H + P(F|e=1)w_F) - u(10) \geq u $$
+\text{s.t:}\ \ u(P(S|e=1)w_H + P(F|e=1)w_F) - u(10) \geq u $$
 
 
 <object data="/assets/pdfs/TaxFarmingEssay.pdf" width="1000" height="1000" type='application/pdf'/></object>
