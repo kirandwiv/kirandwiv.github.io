@@ -43,7 +43,7 @@ body {
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
+    width: calc(80% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
 
@@ -55,7 +55,7 @@ body {
     width: 100%;
     clear: both;
 
-    .page__content,
+    .page__content {text-align: justify;}
     .page__meta,
     .page__share {
       position: relative;
@@ -249,7 +249,7 @@ body {
   font-family: $caption-font-family;
   font-size: $type-size-7;
   background: #000;
-  text-align: right;
+  text-align: justify;
   z-index: 5;
   opacity: 0.5;
   border-radius: $border-radius 0 0 0;
@@ -417,7 +417,7 @@ body {
   color: $muted-text-color;
   font-size: 0.6em;
   text-transform: uppercase;
-  text-align: right;
+  text-align: jusify;
   text-decoration: none;
 }
 
