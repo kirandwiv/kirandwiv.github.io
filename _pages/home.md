@@ -8,6 +8,6 @@ collection: posts
 toc: true
 ---
 
-Welcome to my website! Here I sometimes explore what Thomas Carlyle called a "a dreary, desolate and, indeed, quite abject and distressing" science. Because it has its moments. Please take everything I've written on here very seriously.
+Welcome to my website! Here I explore what Thomas Carlyle called a "a dreary, desolate and, indeed, quite abject and distressing" science. Because it has its moments. 
 
-Also, in a bid to avoid the [Preface Paradox](https://en.wikipedia.org/wiki/Preface_paradox) please note that any errors you might encounter on this website are entirely my sister's doing. 
+Please take everything I've written on here very seriously. Also, in a bid to avoid the [Preface Paradox](https://en.wikipedia.org/wiki/Preface_paradox) note that any errors you might encounter on this website are entirely my sister's doing. 
