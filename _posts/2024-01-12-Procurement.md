@@ -3,7 +3,7 @@ layout: posts
 title:  "Procurement"
 toc: true
 ---
-
+![Farmers Tilling the Tax Farm](/assets/images/procurement.png)
 ### Introduction
 The early stages of the COVID pandemic brought out the best in humanity. Who can forget those heroes who valiantly sacrificed others in  defending our personal freedoms by refusing to wear masks? Academics too rose to the occasion. Luminaries helpfully explained why certain countries were better behaved under lockdowns: East-Asian countries were simply more obedient, you see. More socially-minded. And the decadent west was just too individualistic for quarantines and curfews to be observed. Finally, there were the hoarders. Those who rushed to the supermarket and bought all the toilet paper they could lay their hands on. Exemplary social behaviour and a testament to just how far humanity has come in conquering its baser instincts. There was a time when those same people would have simply gone without wiping. 
 
