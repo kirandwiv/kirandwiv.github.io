@@ -34,6 +34,9 @@ Now what if the Principle cannot observe effort? Well, the Principle can observe
 $$ \max_{w_S, w_F} E[\pi|e=1] - (P(S|e=1)w_H + P(F|e=1)w_F)\\
 \text{s.t:}\ \ u(P(S|e=1)w_H + P(F|e=1)w_F) - u(10) \geq u $$
 
+If we were being careful, we'd solve this using Kuhn-Tucker conditions but we can quickly get at an intuitive solution by noting two things. The profit-maximizing principle will not want to pay the agent a penny more than they have to in order to incentivize them to put in a high-level of effort (IC will bind) and they'll pay them as little as they can get away with paying them in order that their expected utility clears their reservation value (IR will also bind). Our two inequalities thus become equalities and we are left to solve a system of equations.
+
+Notice that unlike in the perfect information case, the principal here is made to pay the agent more on average. Why is this? Intuitively, this new wage structure (created in a bid to make the principal and the agent's incentives align) foists risk onto the agent. If things go well they'll get a high payoff, if they don't there's a risk they get a low payoff. However the agent does not like having to take on risk and therefore needs to be compensated for it. 
 
 <object data="/assets/pdfs/TaxFarmingEssay.pdf" width="1000" height="1000" type='application/pdf'/></object>
 
