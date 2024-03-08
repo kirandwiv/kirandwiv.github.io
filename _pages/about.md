@@ -4,6 +4,7 @@ title: "About Me"
 excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 last_modified_at: 2022-05-27T11:59:26-04:00
 toc: true
+classes: wide
 ---
 
 "Kiran Dwivedi is a Pre-Doc RA with the Microsoft Economics and Computation Team. Kiran earned his BA

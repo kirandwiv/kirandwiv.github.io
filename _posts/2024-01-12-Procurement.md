@@ -2,6 +2,7 @@
 layout: posts
 title:  "Procurement"
 toc: true
+classes: wide
 ---
 ![Farmers Tilling the Tax Farm](/assets/images/procurement.png)
 ### Introduction

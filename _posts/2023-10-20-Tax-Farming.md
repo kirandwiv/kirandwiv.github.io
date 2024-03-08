@@ -2,6 +2,7 @@
 layout: posts
 title:  "Tax Farming: should we bring it back?"
 toc: true
+classes: wide
 ---
 
 
