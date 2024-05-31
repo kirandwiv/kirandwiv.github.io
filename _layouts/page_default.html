@@ -1,0 +1,29 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        #vis.vega-embed {
+          width: 100%;
+          display: flex;
+        }
+    
+        #vis.vega-embed details,
+        #vis.vega-embed details summary {
+          position: relative;
+        }
+      </style>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.17.0"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+    <h1>{{ page.header }}</h1>
+    {{ content }}
+    <div id="nav-placeholder">{% include navbar.html %}</div>
+</body>
+</html>
