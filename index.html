@@ -8,11 +8,15 @@
 <body>
     <h1>Welcome to my website!</h1>
     <p>This is a simple personal website.</p>
-    <nav>
-        <a href="pages/about.html">About Me</a>|
-        <a href="pages/equations_eg.html">EquationsEx</a>
-        <a href="pages/image_eg.html">ImageEx</a>
-    </nav>
+    <div id="nav-placeholder"></div>
     <script src="js/scripts.js"></script>
+
+
+    <!---Navbar-->
+    <script>
+        $(function(){
+          $("#nav-placeholder").load("utilities/navbar.html");
+        });
+    </script>
 </body>
 </html>
