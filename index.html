@@ -13,6 +13,11 @@
     Please take everything I've written on here very seriously. Also, in a bid to avoid the <a href="https://en.wikipedia.org/wiki/Preface_paradox">Preface Paradox</a> note that any errors you might encounter on this website are entirely my sister's doing.
     </p>
     <!---Navbar-->
-    <div id="nav-placeholder">{% include navbar.html %}</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("_includes/navbar.html");
+    });
+    </script>
 </body>
 </html>
