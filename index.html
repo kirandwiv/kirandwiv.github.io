@@ -28,6 +28,13 @@
             <img src="figures/index/profilepic.jpeg" alt="Profile Picture" width="200" height="200">
         </div>
     </div> 
-    <iframe src="http://127.0.0.1:8050" width="100%"></iframe>
+    <iframe id="myIframe" src="http://127.0.0.1:8050" width="100%"></iframe>
+
+    <script>
+        var iframe = document.getElementById('myIframe');
+        iframe.onload = function() {
+            iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
 </body>
 </html>
