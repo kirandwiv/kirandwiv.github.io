@@ -14,15 +14,21 @@ body {
     padding-bottom: 50px;
   }
 
-.header-image img {
-    width: 100%;
-    max-width: 1000px;
-    max-height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.profile-picture {
+    border: 10px solid #397db9; /* Change the color and size as needed */
+    width: 150px;
+    height: 200px;
+}
 
 .profile-container {
     text-align: right;
 }
+
+.header-image img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
