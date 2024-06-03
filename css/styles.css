@@ -8,11 +8,19 @@ body {
 
 .profile-picture {
     border: 10px solid #397db9; /* Change the color and size as needed */
-    border-radius: 50%; /* This will make the border circular */
     width: 200px;
     height: 200px;
 }
 
 .profile-container {
     text-align: right;
+}
+
+.header-image img {
+    width: 120%; /* Increase the width to more than 100% */
+    max-width: none; /* Remove the max-width limit */
+    height: auto;
+    display: block;
+    position: relative; /* Add relative positioning */
+    left: -10%; /* Use negative left value to move the image to the left */
 }
