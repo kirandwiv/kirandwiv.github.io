@@ -24,6 +24,10 @@ body {
     position: absolute;
 }
 
+.header-image {
+    position: relative;
+}
+
 .header-image img {
     width: 100%;
     max-width: 1000px;
@@ -31,5 +35,4 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-  }
+}
