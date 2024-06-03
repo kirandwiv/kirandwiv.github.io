@@ -109,3 +109,26 @@ h2 div::before {
     top: -4px;
     left: 0px;
 }
+
+
+.social-logo {
+    width: 26px; /* Adjust as needed */
+    height: 26px; /* Adjust as needed */
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #397db9;
+    width: 525px;
+    padding: 2px 0px 2px 10px;
+    position: relative;
+    top: -42px;
+}
+
+nav a {
+    color: white;
+    font-size: 1.1em;
+}
