@@ -22,7 +22,7 @@ body {
 
 .profile-container {
     text-align: right;
-    top: -30px;
+    top: -50px;
     position: absolute;
     right: 0;
 }
@@ -34,7 +34,7 @@ body {
 .header-image img {
     width: 100%;
     max-width: 1000px;
-    max-height: 300px;
+    max-height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
