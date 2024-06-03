@@ -1,9 +1,7 @@
 /* styles.css */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 .contents {
