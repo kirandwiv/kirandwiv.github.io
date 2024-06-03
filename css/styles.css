@@ -5,6 +5,7 @@ body {
 }
 
 .contents {
+    position: relative;
     max-width: 800px;
     margin: auto;
     padding: 20px;
@@ -23,7 +24,6 @@ body {
     top: -50px;
     position: absolute;
     right: 0;
-
 }
 
 .header-image {
