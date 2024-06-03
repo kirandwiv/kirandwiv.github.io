@@ -5,3 +5,14 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.profile-picture {
+    border: 10px solid #397db9; /* Change the color and size as needed */
+    border-radius: 50%; /* This will make the border circular */
+    width: 200px;
+    height: 200px;
+}
+
+.profile-container {
+    text-align: right;
+}
