@@ -20,6 +20,7 @@ body {
 
 .profile-container {
     text-align: right;
+    top: -50px;
 }
 
 .header-image img {
