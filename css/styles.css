@@ -14,14 +14,14 @@ body {
   }
 
 .profile-picture {
-    border: 10px solid #397db9; /* Change the color and size as needed */
-    width: 125px;
-    height: 150px;
+    border: 5px solid #397db9; /* Change the color and size as needed */
+    max-width: 238px;
+    max-height: 300px;
 }
 
 .profile-container {
     text-align: right;
-    top: -50px;
+    top: -30px;
     position: absolute;
     right: 0;
 }
@@ -38,3 +38,14 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+h1 {
+    color: #397db9;
+  }
+
+h1 div {
+    /* width: fit-content; */
+    display: inline-block;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+  }
