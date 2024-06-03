@@ -16,37 +16,67 @@ body {
 
 .profile-picture {
     border: 5px solid #397db9; /* Change the color and size as needed */
-    max-width: 200px;
-    max-height: 250px;
+    max-width: 175px;
+    max-height: 230px;
 }
 
 .profile-container {
     text-align: right;
-    top: -70px;
+    top: -240px;
     position: absolute;
     right: 0;
 }
 
 .header-image {
     position: relative;
+    margin: 0 auto;
 }
 
 .header-image img {
     width: 100%;
     max-width: 1000px;
-    max-height: 300px;
+    max-height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1 {
-    color: #397db9;
+.page-title {
+    background-color: #397db9;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
   }
 
+h1 {
+    color: #397db9;
+    position: relative;
+    padding-left: 100px; /* Start the text 100px in */
+}
+
+h1::before, h1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px; /* Width of the color block */
+    background-color: #397db9; /* Color of the block */
+}
+
+h1::before {
+    left: 0; /* Position the block on the left */
+}
+
+h1::after {
+    right: 0; /* Position the block on the right */
+}
+
 h1 div {
-    /* width: fit-content; */
     display: inline-block;
     background-color: white;
-    padding: 0px 20px 5px 20px;
-  }
+    padding: 0px 10px;
+}
+
+h1 span {
+    font-weight: 300; /* Adjust as needed */
+}
