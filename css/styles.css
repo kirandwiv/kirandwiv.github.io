@@ -14,7 +14,7 @@ body {
     padding-bottom: 50px;
   }
 
-  .header-image img {
+.header-image img {
     width: 100%;
     max-width: 1000px;
     max-height: 300px;
@@ -25,13 +25,4 @@ body {
 
 .profile-container {
     text-align: right;
-}
-
-.header-image img {
-    width: 100%; /* Increase the width to more than 100% */
-    max-width: none; /* Remove the max-width limit */
-    height: auto;
-    display: block;
-    position: relative; /* Add relative positioning */
-    left: -10%; /* Use negative left value to move the image to the left */
 }
