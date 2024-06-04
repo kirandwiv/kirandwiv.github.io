@@ -79,7 +79,7 @@ h1 {
     position: relative;
     color: #397db9;
     padding-left: 100px; /* Start the text 100px in */
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 h1::before {
@@ -145,7 +145,7 @@ nav {
     background-color: #397db9;
     padding: 2px 2px;
     max-width: 1000px;
-    top: -5px;
+    top: 0px;
     position: relative;
 }
 
