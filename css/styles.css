@@ -134,7 +134,7 @@ h2 div::before {
     width: 20px; /* Adjust as needed */
     height: 20px;
     filter: brightness(0) invert(1);
-    padding: 3px 0px 0px; /* Adjust as needed */
+    padding: 3px 3px 0px 0px; /* Adjust as needed */
 }
 
 a {
@@ -170,6 +170,7 @@ nav a {
 
 .nav-left {
     text-align: left;
+    padding: 0px 10px 0px 10px;
 }
 
 .nav-right {
