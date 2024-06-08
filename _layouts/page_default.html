@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Kiran Dwivedi</title>
+    <title>{{page.title}}</title>
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -28,23 +28,7 @@
             </div>
         </nav> 
     <div class="contents">
-        <div style="display: flex; align-items: flex-start;">
-            <div style = "flex: 1;">
-                <h2><div>Collaborative Innovation</div></h2>
-                <p>Much of the software we use today is built on "open source" code. That is, code that is free and, theoretically, accessible to all. 
-                  Machine learning libraries such as 
-                  pytorch and tensorflow, web frameworks like Django and Flask, and even the Linux operating system are all 
-                  examples of open-source software. Tensorflow is a particularly interesting case as it is formally 
-                  supported by Google, breaking with the tradition of open-source code being developed by a community of independent programmers.
-                  
-                  <br><br>
-
-                  The economics of open-source software warrant further investigation. Why is it possible and profitable for companies like Google
-                  to deploy considerable resources in the development of software they later distribute freely? Below we will explore some possible explanations 
-                  and motivations for the development of open-source software and the collaborative innovation it engenders.
-                </p>
-            </div>
-        </div> 
+        {{content}}
     </div>
 </body>
 </html>
