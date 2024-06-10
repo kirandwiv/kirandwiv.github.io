@@ -22,7 +22,7 @@ header: Welcome to my About Me page!
           <h3>A Simple Model</h3>
 
           In the simplest model, we have a single firm that produces two goods \(x_1\) and \(x_2\). Consumers each have a value for each good. The distribution of values for good one are drawn from 
-          \(v \sim F(\theta_1)\). The distribution of values for good two depend on the quantity of good 1 sold: \(F(\theta_2|x_1)\). The firm can observe the distribution of values for both goods. Consumers purchase
+          \(v \sim F_1(\theta_1)\). The distribution of values for good two depend on the quantity of good 1 sold: \(F_2(\theta_2|x_1)\). The firm can observe the distribution of values for both goods. Consumers purchase
           the good if \(v \geq p\). The relative sizes of the markets are determined by the parameter \(\lambda \in [0,1]\). The firm sets prices for both goods. The firm's objective is to maximize profit:
 
           \[ \max_{p_1,p_2}  \lambda (p_1 -c_1) F(p_1) + (1-\lambda)(p_2-c_2)F(p_2|\lambda F(p_1)) \]
@@ -30,7 +30,8 @@ header: Welcome to my About Me page!
           The problem yields the following equilibrium conditions:
 
           \begin{align*}
-            \lambda \left[F_1(p_1)+\frac{\delta F(p_1)}{\delta dp_1}(p_1-c_1)\right]
+            \lambda \left[F_1(p_1)+\frac{\partial F_1(p_1)}{\partial dp_1}(p_1-c_1)\right] + (1-\lambda)(p_2-c_2)\frac{\partial F_2(p_2|\lambda F(p_1))}{\partial F(p_1)}\lambda \frac{\partial F(p_1)}{\partial dp_1} &= 0\\
+            (1-\lambda)\left[p_2 F_2(p_2|\lambda F(p_1)) + \frac{\partial F_2(p_2|\lambda F(p_1))}{\partial dp_2}(p_2-c_2)\right] &= 0
           \end{align*}
         </p>
     </div>
