@@ -22,10 +22,12 @@ header: Welcome to my About Me page!
           <h3>A Simple Model</h3>
 
           In the simplest model, we have a single firm that produces two goods \(x_1\) and \(x_2\). Consumers each have a value for each good. The distribution of values for good one are drawn from 
-          \(v \sim F(\theta_1)\)$. The distribution of values for good two depend on the quantity of good 1 sold: \(F(\theta_2|x_1)\). The firm can observe the distribution of values for both goods. Consumers purchase
-          the good if \(v \geq p\). The firm sets prices for both goods. The firm's objective is to maximize profit:
+          \(v \sim F(\theta_1)\). The distribution of values for good two depend on the quantity of good 1 sold: \(F(\theta_2|x_1)\). The firm can observe the distribution of values for both goods. Consumers purchase
+          the good if \(v \geq p\). The relative sizes of the markets are determined by the parameter \(\lambda \in [0,1]\). The firm sets prices for both goods. The firm's objective is to maximize profit:
 
-          \[ \max_{p_1,p_2} \int_{v \geq p_1} v dF(\theta_1) + \int_{v \geq p_2} v dF(\theta_2|x_1) - c_1x_1 - c_2x_2 \]
+          \[ \max_{p_1,p_2}  \lambda (p_1 -c_1) F(p_1) + (1-\lambda)(p_2-c_2)F(p_2|\lambda F(p_1)) \]
+
+          
         </p>
     </div>
 </div> 
