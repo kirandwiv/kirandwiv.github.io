@@ -30,11 +30,16 @@ header: Welcome to my About Me page!
           The problem yields the following equilibrium conditions:
 
           \begin{align}
-            &\lambda \left[F_1(p_1)+\frac{\partial F_1(p_1)}{\partial dp_1}(p_1-c_1)\right] + \lambda(1-\lambda)(p_2-c_2)\frac{\partial F_2(p_2|\lambda F_1(p_1))}{\partial F_1(p_1)} \frac{\partial F_1(p_1)}{\partial dp_1} &= 0\\
-            &(1-\lambda)\left[F_2(p_2|\lambda F(p_1)) + \frac{\partial F_2(p_2|\lambda F_1(p_1))}{\partial dp_2}(p_2-c_2)\right] &= 0
+            &\lambda \left[F_1(p_1)+\frac{\partial F_1(p_1)}{\partial dp_1}(p_1-c_1)\right] + \lambda(1-\lambda)(p_2-c_2)\frac{\partial F_2(p_2|\lambda F_1(p_1))}{\partial F_1(p_1)} \frac{\partial F_1(p_1)}{\partial dp_1} = 0\\
+            &(1-\lambda)\left[F_2(p_2|\lambda F(p_1)) + \frac{\partial F_2(p_2|\lambda F_1(p_1))}{\partial dp_2}(p_2-c_2)\right] = 0
           \end{align}
 
-          We let $$ 
+          Let \(F_1(p_1) = x_1(p_1)\) and \(x_2(p_1,p_2) = F_2(p_2|\lambda F_1(p_1))\). The equilibrium conditions can be re-written as:
+
+          \begin{align}
+            &\lambda \left[x_1(p_1)+\frac{\partial x_1(p_1)}{\partial dp_1}(p_1-c_1)\right] + \lambda(1-\lambda)(p_2-c_2)\frac{\partial x_2(p_1,p_2)}{\partial x_1(p_1)} \frac{\partial x_1(p_1)}{\partial dp_1} = 0\\
+            &(1-\lambda)\left[x_2(p_1,p_2) + \frac{\partial x_2(p_1,p_2)}{\partial dp_2}(p_2-c_2)\right] = 0
+          \end{align}
         </p>
     </div>
 </div> 
