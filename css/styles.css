@@ -176,3 +176,21 @@ nav a {
 .nav-right {
     text-align: right;
 }
+
+.centered-image {
+    text-align: center;
+    margin: 20px auto; /* Adjust as needed */
+}
+
+.centered-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ensures the image is responsive */
+}
+
+.centered-image figcaption {
+    margin-top: 10px; /* Adjust as needed */
+    font-style: italic;
+    color: #555; /* Adjust as needed */
+    font-size: 0.8em;
+}
